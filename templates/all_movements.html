@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}All Movements{% endblock %}
+
+{% block body %}
+  <h1>All Movements</h1>
+
+  <ul>
+    {% for movement in movements %}
+        <p>{{ movement.name }}</p>
+        <img alt="{{ movement.name}}" src="{{ movement.reference_image }}">
+    {% endfor %}
+  </ul>
+{% endblock %}

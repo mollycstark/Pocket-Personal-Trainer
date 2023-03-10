@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Chinup",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5602x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull"
+    },
+    {
+        "name": "Bent Over Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6145x_2_screen.jpg?w=590",
+        "movement_pattern": "Pull"
+      },
+    {
+        "name": "Barbell Deadlift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1486x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge"
+      },
+      {
+        "name": "Barbell RDL",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/08/gabby_2662x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge"
+      },
+      {
+        "name": "Front Squat",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4260x_2_screen-1.jpg?w=590",
+        "movement_pattern": "Squat"
+      },
+      {
+        "name": "Bulgarian Split Squat",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_0453x_2_screen.jpg?w=590",
+        "movement_pattern": "Squat"
+      },
+      {
+        "name": "Bench Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3770x_2_screen.jpg?w=590",
+        "movement_pattern": "Push"
+      },
+    {
+      "name": "Barbell Seated Overhead Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/jarod_4345x_2_screen-1.jpg?w=590",
+      "movement_pattern": "Push"
+    },
+    {
+        "name": "Barbell Front Racked Reverse Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/36-Barbell-Front-Racked-Reverse-Lunge_084.jpg?w=590",
+        "movement_pattern": "Lunge"
+      },
+      {
+        "name": "Alternating Goblet Reverse Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/42-Alternating-Goblet-Reverse-Lunge_060.jpg?w=590",
+        "movement_pattern": "Lunge"
+      },
+      {
+        "name": "Half Kneeling Lift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4134x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation"
+      },
+      {
+        "name": "Inline Chop",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/pablo_9161x_2_screen-1.jpg?w=590",
+        "movement_pattern": "Rotation"
+      },
+      {
+        "name": "Resisted Core Assist Marching",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/34-Resisted-Core-Assist-Marching_020.jpg?w=590",
+        "movement_pattern": "Gait"
+      },
+      {
+        "name": "Suitcase March",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3551x_2_screen.jpg?w=590",
+        "movement_pattern": "Gait"
+      }
+  ]
+  
