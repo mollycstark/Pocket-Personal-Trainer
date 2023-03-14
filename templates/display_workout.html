@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Workout Movements{% endblock %}
+
+{% block body %}
+  <h1>Workout Movements</h1>
+
+  <ul>
+    {% for workout_movement in workout_movements %}
+        <p>{{ workout_movement.movement.name }}</p>
+        <img src="{{ workout_movement.movement.reference_image }}">
+    {% endfor %}
+  </ul>
+
+{% endblock %}

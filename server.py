@@ -79,6 +79,34 @@ def create_workout():
     return render_template("all_movements.html", movements=movements)
 
 
+@app.route("/api/select_movements")
+def select_movements():
+    """Instantiate user selected movements for a workout."""
+
+    user = crud.get_user_by_username(session["user_username"])
+    users_workout = crud.get_workout_by_user_id(user.user_id)
+
+    movement_name = request.args.get("movement_name")
+    movement_object = crud.get_movement_by_name(movement_name)
+
+    workout_movement = crud.create_workout_movement(users_workout, movement_object)
+    db.session.add(workout_movement)
+    db.session.commit()
+
+    return ('', 204)
+
+
+@app.route("/display_workout")
+def display_workout():
+    """Display a user's workout."""
+
+    user = crud.get_user_by_username(session["user_username"])
+    workout = crud.get_workout_by_user_id(user.user_id)
+    workout_movements = workout.workout_movements
+
+    return render_template("display_workout.html", workout_movements=workout_movements)    
+
+
 if __name__ == "__main__":
     connect_to_db(app)
     app.run(host="0.0.0.0", debug=True)

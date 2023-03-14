@@ -10,4 +10,11 @@
         <img alt="{{ movement.name}}" src="{{ movement.reference_image }}">
     {% endfor %}
   </ul>
+
+  <form action="http://localhost:5000/display_workout">   
+    <input type="submit" value="Save Workout">
+ </form>
+
+  <script src="/static/all_movements.js"></script>
 {% endblock %}
+

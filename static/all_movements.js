@@ -1,10 +1,12 @@
-document.querySelector('img').addEventListener('click', (event) => {
-    event.preventDefault();
-  
-    const humanId = document.querySelector('select[name="human_id"]').value;
-    fetch(`/api/humans?human_id=${humanId}`)
-      .then((response) => response.json())
-      .then((jsonResponse) => {
-        showHuman(jsonResponse);
-      });
-  });
+const images = document.querySelectorAll('img');
+for (const image of images) {
+  image.addEventListener('click', (event) => {
+    const movement = event.target;
+    const movementName = movement.alt;
+
+    fetch(`/api/select_movements?movement_name=${movementName}`)
+  })
+};    
+    
+
+

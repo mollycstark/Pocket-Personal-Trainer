@@ -56,6 +56,12 @@ def get_movement_by_id(movement_id):
     return Movement.query.get(movement_id)
 
 
+def get_movement_by_name(name):
+    """Return a movement by primary key."""
+
+    return Movement.query.filter(Movement.name == name).first()
+
+
 def create_completed_movement(movement, user, completed_at):
     """Create and return a new completed movement."""
 
@@ -105,7 +111,7 @@ def get_movement_pattern_by_id(movement_pattern_id):
 def get_movement_pattern_by_name(name):
     """Return a movement pattern by name."""
 
-    return MovementPattern.query.filter(MovementPattern.name ==name).first()
+    return MovementPattern.query.filter(MovementPattern.name == name).first()
 
 
 def create_workout(user):
@@ -130,12 +136,18 @@ def get_workout_by_id(workout_id):
     return Workout.query.get(workout_id)
 
 
+def get_workout_by_user_id(user_id):
+    """Return a workout by user id."""
+
+    return Workout.query.filter(Workout.user_id == user_id).first()
+
+
 def create_workout_movement(workout, movement):
     """Create and return a new workout movement."""
 
-    workout_movement = Workout(
-        workout,
-        movement
+    workout_movement = WorkoutMovement(
+        workout=workout,
+        movement=movement
         )
 
     return workout_movement
