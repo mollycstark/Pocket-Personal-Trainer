@@ -62,13 +62,13 @@ def get_movement_by_name(name):
     return Movement.query.filter(Movement.name == name).first()
 
 
-def create_completed_movement(movement, user, completed_at):
+def create_completed_movement(movement, user):
     """Create and return a new completed movement."""
 
     completed_movement = CompletedMovement(
         movement=movement,
-        user=user, 
-        completed_at=completed_at
+        user=user
+        # completed_at=completed_at
         )
 
     return completed_movement

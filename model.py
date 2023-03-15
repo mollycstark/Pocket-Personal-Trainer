@@ -60,7 +60,7 @@ class CompletedMovement(db.Model):
                         primary_key=True)
     movement_id = db.Column(db.Integer, db.ForeignKey('movements.movement_id'), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'), nullable=False)
-    completed_at = db.Column(db.DateTime, nullable=False)
+    # completed_at = db.Column(db.DateTime, nullable=False)
 
     movement = db.relationship("Movement", back_populates="completed_movements")
     user = db.relationship("User", back_populates="completed_movements")

@@ -76,7 +76,7 @@ def create_workout():
     db.session.commit()
     flash("Workout created! Please select movements.")
 
-    return render_template("all_movements.html", movements=movements)
+    return render_template("create_workout.html", movements=movements)
 
 
 @app.route("/api/select_movements")
@@ -105,6 +105,31 @@ def display_workout():
     workout_movements = workout.workout_movements
 
     return render_template("display_workout.html", workout_movements=workout_movements)    
+
+
+@app.route("/all_movements")
+def all_movements():
+    """Display all movements."""
+
+    movements = crud.get_movements()
+
+    return render_template("all_movements.html", movements=movements)
+
+
+@app.route("/api/log_workout")
+def log_workout():
+    """Instantiate completed movements."""
+
+    user = crud.get_user_by_username(session["user_username"])
+
+    movement_name = request.args.get("movement_name")
+    movement_object = crud.get_movement_by_name(movement_name)
+
+    completed_movement = crud.create_completed_movement(movement_object, user)
+    db.session.add(completed_movement)
+    db.session.commit()
+
+    return ('', 204)
 
 
 if __name__ == "__main__":
