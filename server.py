@@ -64,17 +64,46 @@ def all_users():
     return render_template("all_users.html", users=users)
 
 
+@app.route("/create_workout_b")
+def create_workout_b():
+    """Create a follow up workout."""
+
+    all_movements = crud.get_movements()
+    all_completed_movements = crud.get_completed_movements()
+    
+    completed_movement_patterns = []
+    uncompleted_movements = []
+
+    for completed_movement in all_completed_movements:
+        completed_movement_patterns.append(completed_movement.movement.movement_pattern)
+
+
+    for movement in all_movements:
+            if movement.movement_pattern not in completed_movement_patterns:
+                uncompleted_movements.append(movement)
+         
+    movements = uncompleted_movements
+
+    return render_template("create_workout.html", movements=movements)
+
+
 @app.route("/create_workout")
 def create_workout():
     """Create a workout."""
 
-    movements = crud.get_movements()
+    if crud.get_completed_movements:
+        
+        return redirect("/create_workout_b")
 
-    user = crud.get_user_by_username(session["user_username"])
-    workout = crud.create_workout(user)
-    db.session.add(workout)
-    db.session.commit()
-    flash("Workout created! Please select movements.")
+    else:
+
+        movements = crud.get_movements()
+
+        user = crud.get_user_by_username(session["user_username"])
+        workout = crud.create_workout(user)
+        db.session.add(workout)
+        db.session.commit()
+        flash("Workout created! Please select movements.")
 
     return render_template("create_workout.html", movements=movements)
 
@@ -113,7 +142,7 @@ def all_movements():
 
     movements = crud.get_movements()
 
-    return render_template("all_movements.html", movements=movements)
+    return render_template("log_workout.html", movements=movements)
 
 
 @app.route("/api/log_workout")
