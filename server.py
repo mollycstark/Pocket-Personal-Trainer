@@ -93,6 +93,12 @@ def create_workout():
 
     if crud.get_completed_movements:
         
+        user = crud.get_user_by_username(session["user_username"])
+        workout = crud.create_workout(user)
+        db.session.add(workout)
+        db.session.commit()
+        flash("Workout created! Please select movements.")
+
         return redirect("/create_workout_b")
 
     else:
