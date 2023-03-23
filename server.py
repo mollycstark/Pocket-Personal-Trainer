@@ -108,6 +108,13 @@ def create_workout_b():
     return render_template("create_workout.html", movements=movements, workout=workout)
 
 
+@app.route("/body_region")
+def get_user_input():
+    """User inputs body region focus for workout."""
+
+    return render_template("body_region.html")
+
+
 @app.route("/create_workout")
 def create_workout():
     """Create a workout."""
@@ -119,8 +126,13 @@ def create_workout():
         return redirect("/create_workout_b")
 
     else:
+        user_input = request.args.get("body-region")
 
-        movements = crud.get_movements()
+        if user_input == "Full":
+            movements = crud.get_movements()
+
+        else:
+            movements = crud.get_movements_by_body_region(user_input) 
 
         user = crud.get_user_by_username(session["user_username"])
         workout = crud.create_workout(user)

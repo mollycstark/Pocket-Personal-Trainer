@@ -63,6 +63,12 @@ def get_movement_by_name(name):
     return Movement.query.filter(Movement.name == name).first()
 
 
+def get_movements_by_body_region(body_region):
+    """Return all movements by body region."""
+
+    return Movement.query.filter(Movement.body_region == body_region).all()
+
+
 def create_completed_movement(movement, user):
     """Create and return a new completed movement."""
 
