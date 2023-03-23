@@ -43,13 +43,14 @@ with open("data/movements.json") as f:
 # Store them in list to instantiate movement records
 movements_in_db = []
 for movement in movement_data:
-    name, reference_image, movement_pattern = (
+    name, reference_image, movement_pattern, body_region = (
         movement["name"],
         movement["reference_image"],
         crud.get_movement_pattern_by_name(movement["movement_pattern"]),
+        movement["body_region"],
     )
 
-    db_movement = crud.create_movement(name, reference_image, movement_pattern)
+    db_movement = crud.create_movement(name, reference_image, movement_pattern, body_region)
     movements_in_db.append(db_movement)
 
 model.db.session.add_all(movements_in_db)

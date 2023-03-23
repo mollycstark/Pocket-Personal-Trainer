@@ -39,6 +39,7 @@ class Movement(db.Model):
     name = db.Column(db.String, nullable=False)
     reference_image = db.Column(db.String, nullable=False)
     movement_pattern_id = db.Column(db.Integer, db.ForeignKey('movement_patterns.movement_pattern_id'), nullable=False)
+    body_region = db.Column(db.String, nullable=False)
 
     completed_movements = db.relationship("CompletedMovement", back_populates="movement")
     movement_pattern = db.relationship("MovementPattern", back_populates="movements")

@@ -32,13 +32,14 @@ def get_user_by_username(username):
     return User.query.filter(User.username == username).first()
 
 
-def create_movement(name, reference_image, movement_pattern):
+def create_movement(name, reference_image, movement_pattern, body_region):
     """Create and return a new movement."""
 
     movement = Movement(
         name=name,
         reference_image=reference_image,
         movement_pattern=movement_pattern,
+        body_region=body_region,
         )
 
     return movement
@@ -136,10 +137,15 @@ def get_workout_by_id(workout_id):
     return Workout.query.get(workout_id)
 
 
-def get_workout_by_user_id(user_id):
-    """Return a workout by user id."""
+def get_last_workout_by_user_id(user_id):
 
-    return Workout.query.filter(Workout.user_id == user_id).first()
+    return Workout.query.filter(Workout.user_id == user_id).order_by(Workout.workout_id.desc()).first()
+
+
+def get_all_workouts_by_user_id(user_id):
+    """Return all workouts by user id."""
+
+    return Workout.query.filter(Workout.user_id == user_id).all()
 
 
 def create_workout_movement(workout, movement):
