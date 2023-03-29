@@ -169,6 +169,16 @@ def select_sets_reps():
     users_workout = crud.get_last_workout_by_user_id(user.user_id)
     workout_movements = users_workout.workout_movements
 
+    if request.args.get("num_sets"):
+        workout_movement = request.args.get("workout_movement")
+        num_sets = int(request.args.get("num_sets"))
+        crud.update_workout_movement_sets(workout_movement, num_sets)
+        
+    elif request.args.get("num_reps"):
+        workout_movement = request.args.get("workout_movement")
+        num_reps = int(request.args.get("num_reps"))
+        crud.update_workout_movement_reps(workout_movement, num_reps)
+
     return render_template("sets_reps.html", workout_movements=workout_movements)
 
 

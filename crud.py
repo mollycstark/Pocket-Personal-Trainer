@@ -172,6 +172,20 @@ def create_workout_movement(workout, movement):
     return workout_movement
 
 
+def update_workout_movement_sets(workout_movement, sets):
+    """Update number of sets for a workout movement."""
+
+    workout_movement.sets = sets
+    db.session.commit()
+
+
+def update_workout_movement_reps(workout_movement, reps):
+    """Update number of reps for a workout movement."""
+
+    workout_movement.reps = reps
+    db.session.commit()
+
+
 def get_workout_movements():
     """Return all workout movements."""
 
