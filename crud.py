@@ -93,6 +93,12 @@ def get_completed_movement_by_id(completed_movement_id):
     return CompletedMovement.query.get(completed_movement_id)
 
 
+def get_completed_movement_by_user(user):
+    """Return a users completed movements."""
+
+    return CompletedMovement.query.filter(CompletedMovement.user == user).all()
+
+
 def create_movement_pattern(name):
     """Create and return a new movement pattern."""
 
@@ -144,6 +150,7 @@ def get_workout_by_id(workout_id):
 
 
 def get_last_workout_by_user_id(user_id):
+    """Return a user's last created workout."""
 
     return Workout.query.filter(Workout.user_id == user_id).order_by(Workout.workout_id.desc()).first()
 

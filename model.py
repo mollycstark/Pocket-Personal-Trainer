@@ -119,6 +119,8 @@ class WorkoutMovement(db.Model):
                         primary_key=True)
     workout_id = db.Column(db.Integer, db.ForeignKey('workouts.workout_id'), nullable=False)
     movement_id = db.Column(db.Integer, db.ForeignKey('movements.movement_id'), nullable=False)
+    sets = db.Column(db.Integer, nullable=True)
+    repetitions = db.Column(db.Integer, nullable=True)
 
     workout = db.relationship("Workout", back_populates="workout_movements")
     movement = db.relationship("Movement", back_populates="workout_movements")

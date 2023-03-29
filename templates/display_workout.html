@@ -2,25 +2,15 @@
 {% block title %}Workout Movements{% endblock %}
 
 {% block body %}
-  <p>A note on set/repetition counts and recovery time: If your objective is
-     strength or power (think: heavy lifting), the textbook advice is to 
-     perform 3 to 5 sets of 2 to 6 reps per exercise. For hypertrophy 
-     (building muscle), the sweet spot is 3 to 4 sets of 6 to 12 reps. And if
-     your objective is muscular endurance, shoot for 2 to 3 sets of 12 to 20 
-     reps.</p>
-
-  <p>In each case, the key is to use the heaviest resistance that will allow 
-    you to complete all of your reps and sets with good form. You also want to
-     allow yourself just enough time to recover between sets to maintain a 
-     high level of performance: 2 to 5 minutes for strength and power, 30 to 
-     90 seconds for hypertrophy, and just 30 seconds for endurance.</p>
 
   <h1>Workout Movements</h1>
 
   <ul>
     {% for workout_movement in workout_movements %}
         <p>{{ workout_movement.movement.name }}</p>
+        
         <img src="{{ workout_movement.movement.reference_image }}">
+
     {% endfor %}
   </ul>
 

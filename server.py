@@ -18,7 +18,7 @@ def homepage():
     return render_template("homepage.html")
 
 
-@app.route("/users", methods=["POST"])
+@app.route("/create_user", methods=["POST"])
 def register_user():
     """Create a new user."""
 
@@ -53,15 +53,6 @@ def process_login():
         flash(f"Welcome back, {user.username}!")
 
     return redirect("/")
-
-
-@app.route("/users")
-def all_users():
-    """View all users."""
-
-    users = crud.get_users()
-
-    return render_template("all_users.html", users=users)
 
 
 @app.route("/api/log_workout")
@@ -119,7 +110,8 @@ def get_user_input():
 def create_workout():
     """Create a workout."""
 
-    if crud.get_completed_movements():
+    user = crud.get_user_by_username(session["user_username"])
+    if crud.get_completed_movement_by_user(user):
 
         flash("Workout created! Please select movements.")
 
@@ -169,9 +161,31 @@ def select_movements():
     return ('', 204)
 
 
+@app.route("/api/select_sets_reps")
+def select_sets_reps():
+    """Instantiate user selected sets and reps for workout movements."""
+
+    user = crud.get_user_by_username(session["user_username"])
+    users_workout = crud.get_last_workout_by_user_id(user.user_id)
+    workout_movements = users_workout.workout_movements
+
+    return render_template("select_sets_reps.html", workout_movements=workout_movements)
+
+
+@app.route("/display_workout_movements")
+def display_workout_movements():
+    """Display a user's workout."""
+
+    user = crud.get_user_by_username(session["user_username"])
+    users_workout = crud.get_last_workout_by_user_id(user.user_id)
+    workout_movements = users_workout.workout_movements
+
+    return render_template("select_sets_reps.html", workout_movements=workout_movements)
+
+
 @app.route("/display_workout/<workout_id>")
 def display_workout(workout_id):
-    """Display a user's workout."""
+    """Display a user's workout from view workouts nav."""
 
     workout = crud.get_workout_by_id(workout_id)
     workout_movements = workout.workout_movements
