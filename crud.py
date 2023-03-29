@@ -99,6 +99,13 @@ def get_completed_movement_by_user(user):
     return CompletedMovement.query.filter(CompletedMovement.user == user).all()
 
 
+def delete_completed_movement(completed_movement):
+    """Delete a completed movement record."""
+
+    db.session.delete(completed_movement)
+    db.session.commit()
+
+
 def create_movement_pattern(name):
     """Create and return a new movement pattern."""
 
@@ -195,7 +202,7 @@ def get_workout_movements():
 def get_workout_movement_by_id(workout_movement_id):
     """Return a workout movement by primary key."""
 
-    return Workout.query.get(workout_movement_id)
+    return WorkoutMovement.query.get(workout_movement_id)
 
 
 if __name__ == "__main__":

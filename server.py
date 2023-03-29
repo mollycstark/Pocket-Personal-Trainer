@@ -80,6 +80,21 @@ def select_completed_movements():
     return ('', 204)
 
 
+@app.route("/delete_completed_movements")
+def delete_completed_movements():
+    """User deletes completed movements."""
+
+    user = crud.get_user_by_username(session["user_username"])
+    users_completed_movements = crud.get_completed_movement_by_user(user)
+
+    for completed_movement in users_completed_movements:
+        crud.delete_completed_movement(completed_movement)
+
+    flash("Completed movements cleared.")
+
+    return render_template("delete_completed_movements.html")
+
+
 @app.route("/body_region")
 def get_user_input():
     """User inputs body region focus for workout."""
@@ -170,13 +185,19 @@ def select_sets_reps():
     workout_movements = users_workout.workout_movements
 
     if request.args.get("num_sets"):
-        workout_movement = request.args.get("workout_movement")
+        workout_movement_id = request.args.get("workout_movement")
+        workout_movement = crud.get_workout_movement_by_id(workout_movement_id)
+
         num_sets = int(request.args.get("num_sets"))
+
         crud.update_workout_movement_sets(workout_movement, num_sets)
         
     elif request.args.get("num_reps"):
-        workout_movement = request.args.get("workout_movement")
+        workout_movement_id = request.args.get("workout_movement")
+        workout_movement = crud.get_workout_movement_by_id(workout_movement_id)
+
         num_reps = int(request.args.get("num_reps"))
+
         crud.update_workout_movement_reps(workout_movement, num_reps)
 
     return render_template("sets_reps.html", workout_movements=workout_movements)
