@@ -55,9 +55,18 @@ def process_login():
     return redirect("/")
 
 
-@app.route("/api/log_workout")
-def log_workout():
-    """Instantiate completed movements."""
+@app.route("/completed_movements")
+def completed_movements():
+    """Displays all movements."""
+
+    movements = crud.get_movements()
+
+    return render_template("completed_movements.html", movements=movements)
+
+
+@app.route("/api/select_completed_movements")
+def select_completed_movements():
+    """User instantiates completed movements."""
 
     user = crud.get_user_by_username(session["user_username"])
 
@@ -69,6 +78,13 @@ def log_workout():
     db.session.commit()
 
     return ('', 204)
+
+
+@app.route("/body_region")
+def get_user_input():
+    """User inputs body region focus for workout."""
+
+    return render_template("body_region.html")
 
 
 @app.route("/create_workout_b")
@@ -97,13 +113,6 @@ def create_workout_b():
     movements = uncompleted_movements
 
     return render_template("create_workout.html", movements=movements, workout=workout)
-
-
-@app.route("/body_region")
-def get_user_input():
-    """User inputs body region focus for workout."""
-
-    return render_template("body_region.html")
 
 
 @app.route("/create_workout")
@@ -135,17 +144,8 @@ def create_workout():
     return render_template("create_workout.html", movements=movements, workout=workout)
 
 
-@app.route("/all_movements")
-def all_movements():
-    """Display all movements."""
-
-    movements = crud.get_movements()
-
-    return render_template("log_workout.html", movements=movements)
-
-
-@app.route("/api/select_movements")
-def select_movements():
+@app.route("/api/select_workout_movements")
+def select_workout_movements():
     """Instantiate user selected movements for a workout."""
 
     user = crud.get_user_by_username(session["user_username"])
@@ -169,7 +169,7 @@ def select_sets_reps():
     users_workout = crud.get_last_workout_by_user_id(user.user_id)
     workout_movements = users_workout.workout_movements
 
-    return render_template("select_sets_reps.html", workout_movements=workout_movements)
+    return render_template("sets_reps.html", workout_movements=workout_movements)
 
 
 @app.route("/display_workout_movements")
@@ -180,17 +180,7 @@ def display_workout_movements():
     users_workout = crud.get_last_workout_by_user_id(user.user_id)
     workout_movements = users_workout.workout_movements
 
-    return render_template("select_sets_reps.html", workout_movements=workout_movements)
-
-
-@app.route("/display_workout/<workout_id>")
-def display_workout(workout_id):
-    """Display a user's workout from view workouts nav."""
-
-    workout = crud.get_workout_by_id(workout_id)
-    workout_movements = workout.workout_movements
-
-    return render_template("display_workout.html", workout_movements=workout_movements)    
+    return render_template("display_workout.html", workout_movements=workout_movements)
 
 
 @app.route("/view_workouts")
@@ -201,6 +191,16 @@ def view_workouts():
     workouts = crud.get_all_workouts_by_user_id(user.user_id)
 
     return render_template("view_workouts.html", workouts=workouts)
+
+
+@app.route("/display_workout/<workout_id>")
+def display_workout(workout_id):
+    """Display a user's workout from view workouts nav."""
+
+    workout = crud.get_workout_by_id(workout_id)
+    workout_movements = workout.workout_movements
+
+    return render_template("display_workout.html", workout_movements=workout_movements)    
 
 
 if __name__ == "__main__":
