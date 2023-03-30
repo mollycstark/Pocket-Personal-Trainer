@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}All Movements{% endblock %}
+
+{% block body %}
+  <h1>All Movements</h1>
+  <input type="text" id="userInput" onkeyup="handleInput()" placeholder="Search for movements">
+
+  <ul id="myUL">
+    {% for movement in movements %}
+        <li><p>{{ movement.name }}</p>
+        <img alt="{{ movement.name}}" src="{{ movement.reference_image }}"></li>
+    {% endfor %}
+  </ul>
+
+  <form action="/">   
+    <input type="submit" value="Log Completed Movements">
+ </form>
+
+  <script src="/static/completed_movements.js"></script>
+{% endblock %}

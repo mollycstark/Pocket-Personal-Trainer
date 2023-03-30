@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Select Body Region for Workout{% endblock %}
+
+{% block body %}
+  <h1>Body Region</h1>
+
+  <form action="/create_workout">
+    Select a body region for workout:
+    <input type="radio" name="body-region" value="Upper" id="upper-body">
+    <label for="upper-body">Upper Body</label>
+  
+    <input type="radio" name="body-region" value="Core" id="core">
+    <label for="core">Core</label>
+    
+    <input type="radio" name="body-region" value="Lower" id="lower-body">
+    <label for="lower-body">Lower Body</label>
+
+    <input type="radio" name="body-region" value="Full" id="full-body">
+    <label for="full-body">Full Body</label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+{% endblock %}

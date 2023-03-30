@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Saved Workouts{% endblock %}
+
+{% block body %}
+  <h1>Saved Workouts</h1>
+
+  <ul>
+    {% for workout in workouts %}
+        <li><a href="/display_workout/{{workout.workout_id}}">Workout {{loop.index}}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
