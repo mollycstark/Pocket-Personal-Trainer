@@ -111,9 +111,15 @@ def create_workout_b():
     db.session.add(workout)
     db.session.commit()
 
-    all_movements = crud.get_movements()
+    user_input = request.args.get("user_input")
+
+    if user_input == "Full":
+        all_movements = crud.get_movements()
+    else:
+        all_movements = crud.get_movements_by_body_region(user_input) 
+
+    # all_movements = crud.get_movements()
     all_completed_movements = crud.get_completed_movements()
-    
     completed_movement_patterns = []
     uncompleted_movements = []
 
@@ -135,15 +141,14 @@ def create_workout():
     """Create a workout."""
 
     user = crud.get_user_by_username(session["user_username"])
-    if crud.get_completed_movement_by_user(user):
+    user_input = request.args.get("body-region")
 
+    if crud.get_completed_movement_by_user(user):
         flash("Workout created! Please select movements.")
 
-        return redirect("/create_workout_b")
+        return redirect(f"/create_workout_b?user_input={user_input}")
 
     else:
-        user_input = request.args.get("body-region")
-
         if user_input == "Full":
             movements = crud.get_movements()
 
