@@ -6,8 +6,62 @@
       "body_region": "Upper"
     },
     {
+      "name": "Straight Arm Pulldown",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Straight-Arm-Pulldown_590X586.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Y Pull",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_0663x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Standing Face Pull",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1147x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "W Hold",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_8529x_2.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Superhero ISO Hold",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3873x_2.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "X Pulldown with Tricep Extension",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_2030x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "X Pulldown",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/natalie_5356x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
       "name": "Chinup",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5602x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Shoulder Shrug",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Shoulder-Shrug_590X586.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Reverse Fly",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_7729x_2_screen.jpg?w=590",
       "movement_pattern": "Pull",
       "body_region": "Upper"
     },
@@ -24,8 +78,20 @@
       "body_region": "Upper"
     },
     {
+      "name": "Seated Single Arm Lat Pulldown",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/gabby_2228x_2_screen-1.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
       "name": "Neutral Grip Lat Pulldown",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3729x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Seated Lat Pulldown",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5460x_2_screen.jpg?w=590",
       "movement_pattern": "Pull",
       "body_region": "Upper"
     },
@@ -42,8 +108,38 @@
       "body_region": "Upper"
     },
     {
+      "name": "Upright Row",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_8192x_2_screen.jpg?w=590",
+      "movement_pattern": "Pull",
+      "body_region": "Upper"
+    },
+    {
         "name": "Bent Over Row",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6145x_2_screen.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Standing Single Arm Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_2756x_2.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Single Arm Bent Over Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5483x_2_screen.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Seated Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_0531x_2.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Alternating Seated Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/07-Alternating-Seated-Row_048.jpg?w=590",
         "movement_pattern": "Pull",
         "body_region": "Upper"
       },
@@ -72,8 +168,32 @@
         "body_region": "Upper"
       },
       {
+        "name": "Seated Bicep Curl",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3821x_2_screen.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Seated Alternating Bicep Curl",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Seated-Alternating-Bicep-Curl_590X586.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
         "name": "Barbell Bicep Curl",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_2415x_2.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Reverse Grip Bicep Curl",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Reverse-Grip-Bicep-Curl_590X586.jpg?w=590",
+        "movement_pattern": "Pull",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Reverse Grip Barbell Bicep Curl",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Reverse-Grip-Barbell-Bicep-Curl_590X586.jpg?w=590",
         "movement_pattern": "Pull",
         "body_region": "Upper"
       },
@@ -102,14 +222,44 @@
         "body_region": "Upper"
       },
       {
+        "name": "90-90 Hip Stretch",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_7070x_2.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Neutral Grip Deadlift",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3439x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Sumo Deadlift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_2662x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Suitcase Deadlift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3538x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Pullthrough",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1162x_2_screen.jpg?w=590",
         "movement_pattern": "Hip Hinge",
         "body_region": "Lower"
       },
     {
         "name": "Barbell Deadlift",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1486x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "RDL",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/43-RDL-with-Handles-2_079.jpg?w=590",
         "movement_pattern": "Hip Hinge",
         "body_region": "Lower"
       },
@@ -126,14 +276,32 @@
         "body_region": "Lower"
       },
       {
+        "name": "Single Leg RDL",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3471x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Barbell Single Leg RDL",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/32-Barbell-Single-Leg-RDL_312.jpg?w=590",
         "movement_pattern": "Hip Hinge",
         "body_region": "Lower"
       },
       {
+        "name": "Single Arm Single Leg RDL",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_0243x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Hamstring Walkout",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4498x_2.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Single Leg Glute Bridge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5694x_2.jpg?w=590",
         "movement_pattern": "Hip Hinge",
         "body_region": "Lower"
       },
@@ -162,8 +330,20 @@
         "body_region": "Lower"
       },
       {
+        "name": "Resisted Glute Bridge",
+        "reference_image": "tonal.com/wp-content/uploads/2020/05/gabby_2824x_2.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Barbell Glute Bridge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/gabby_2498x_2_screen.jpg?w=590",
+        "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "SA Pullover with SL Hip Thrust",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/04-SA-Pullover-with-SL-Hip-Thrust-Ipsilateral_295.jpg?w=590",
         "movement_pattern": "Hip Hinge",
         "body_region": "Lower"
       },
@@ -171,6 +351,12 @@
         "name": "Barbell Hip Thrust",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/01-Barbell-hip-thrust_0303.jpg?w=590",
         "movement_pattern": "Hip Hinge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Low Squat Walk Out",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/57-Low-Squat-Walk-Out_218.jpg?w=590",
+        "movement_pattern": "Squat",
         "body_region": "Lower"
       },
       {
@@ -188,6 +374,12 @@
       {
         "name": "ISO Squat Hold",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3898x_2.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Squat Jacks",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3063x_2.jpg?w=590",
         "movement_pattern": "Squat",
         "body_region": "Lower"
       },
@@ -216,6 +408,42 @@
         "body_region": "Lower"
       },
       {
+        "name": "Skater Bound",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4417x_2.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Racked Squat",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/38-Racked-Squat_048.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Racked Offset Squat",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/41-Racked-Offset-Squat_035.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Racked Squat to Bench",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/02-Racked-Squat-to-Bench_0381.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Racked Offset Split Squat with Rotation",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/55-Racked-Offset-Split-Squat-w-rotation_060.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Squat with Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_7847x_2_screen.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
         "name": "Goblet Squat to Bench",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/03-Goblet-Squat-to-Bench_021.jpg?w=590",
         "movement_pattern": "Squat",
@@ -228,8 +456,20 @@
         "body_region": "Lower"
       },
       {
+        "name": "Single Arm Squat to Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/jackson_7847x_2_screen.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
         "name": "Front Squat",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4260x_2_screen-1.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Squat to Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Squat-to-Press_590X586.jpg?w=590",
         "movement_pattern": "Squat",
         "body_region": "Lower"
       },
@@ -248,6 +488,12 @@
       {
         "name": "ISO Split Squat",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4165x_2.jpg?w=590",
+        "movement_pattern": "Squat",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Sumo Squat",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_8593x_2.jpg?w=590",
         "movement_pattern": "Squat",
         "body_region": "Lower"
       },
@@ -282,8 +528,74 @@
         "body_region": "Lower"
       },
       {
+        "name": "1/2 Turkish Get-up",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/48-1_2-Turkish-Get-up_012.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Bear Hold",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3012x_2.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Plank Jacks",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3012x_2.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Plank to Toe Tap",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Plank-to-Toe-Tap_590X586.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Inch Worms",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/15-Plank-Walk-Out-Inch-Worms_007.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Plank with Reach",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4443x_2.jpg?w=5900",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Shoulder Tap Plank",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1648x_2.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Pillar Bridge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6878x_2.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
         "name": "Incline Pillar Bridge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/06-Incline-Pillar-Bridge_027.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Scapular Pushup",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/crop-to-not-show-her-knees-above-the-ground.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Pushup to Plank",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5721x_2.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Pushup",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/pablo_9672x_2.jpg?w=590",
         "movement_pattern": "Push",
         "body_region": "Upper"
       },
@@ -300,8 +612,38 @@
         "body_region": "Upper"
       },
       {
+        "name": "Tall Kneeling Single Arm Chest Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/jackson_8021x_2_screen-1.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Single Leg Standing Chest Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/paul_3835x_2_screen.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Standing Chest Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Standing-Chest-Press_590X586.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Standing Incline Chest Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/nicollet_1970x_2_screen.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
         "name": "Bench Press",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3770x_2_screen.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Upper"
+      },
+      {
+        "name": "Single Arm Bench Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/kelly_6608x_2_screen.jpg?w=590",
         "movement_pattern": "Push",
         "body_region": "Upper"
       },
@@ -318,6 +660,12 @@
       "body_region": "Upper"
     },
     {
+      "name": "Wide Grip Barbell Bench Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Wide-Grip-Barbell-Bench-Press_590X586.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
       "name": "Close Grip Barbell Bench Press",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Close-Grip-Barbell-Bench-Press_590X586.jpg?w=590",
       "movement_pattern": "Push",
@@ -330,8 +678,20 @@
       "body_region": "Upper"
     },
     {
+      "name": "Single Arm Decline Fly",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/jackson_7809x_2_screen.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
       "name": "Decline Chest Fly",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/JACKSON_2900xsxG_r2-2.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Standing Decline Chest Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Standing-Decline-Chest-Press_590X586_21.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
     },
@@ -366,8 +726,32 @@
       "body_region": "Upper"
     },
     {
+      "name": "Seated Single Arm Overhead Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5406x_2_screen.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
       "name": "Barbell Seated Overhead Press",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/jarod_4345x_2_screen-1.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Standing Overhead Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/pablo_8927x_2_screen.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Standing Barbell Overhead Press",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1434x_2_screen.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Skull Crushers",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/jarod_4212x_2_screen.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
     },
@@ -378,14 +762,56 @@
       "body_region": "Upper"
     },
     {
+      "name": "Reverse Grip Tricep Extension",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Reverse-Grip-Tricep-Extension_590X586.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Tricep Extension",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_1063x_2.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Single Arm Tricep Extension",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/ALLISON_2582xsxG_r1-1.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Tricep Kickback",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/jackson_8310x_2_screen.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
+      "name": "Reverse Grip Barbell Tricep Extension",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Reverse-Grip-Barbell-Tricep-Extension_590X586.jpg?w=590",
+      "movement_pattern": "Push",
+      "body_region": "Upper"
+    },
+    {
       "name": "Lying Barbell Pullove",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/05-Lying-Barbell-Pullover_107.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
     },
+    {
+      "name": "Runners Lunge",
+      "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3908x_2.jpg?w=590",
+      "movement_pattern": "Lunge",
+      "body_region": "Lower"
+    },
       {
         "name": "Assisted Reverse Lunge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/kelly_6196x_2_screen.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Suitcase Reverse Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Suitcase-Reverse-Lunge_590X586.jpg?w=590",
         "movement_pattern": "Lunge",
         "body_region": "Lower"
       },
@@ -396,8 +822,50 @@
         "body_region": "Lower"
       },
       {
+        "name": "Reverse Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/kelly_6914x_2.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Reverse Lunge with Hop",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6934x_2.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Resisted Alternating Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/53-Resisted-Alternating-Lunge_012.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Resisted Deep Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/50-Resisted-Deep-Lunge_012.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Lateral Lunge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3032x_2.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Resisted Lateral Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/liz_0974x_2_screen.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Step Ups",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_2933x_2.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Resisted Step Up",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5514x_2_screen.jpg?w=590",
         "movement_pattern": "Lunge",
         "body_region": "Lower"
       },
@@ -426,14 +894,50 @@
         "body_region": "Lower"
       },
       {
+        "name": "Racked Reverse Lunge",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Racked-Reverse-Lunge_590X586.jpg?w=590",
+        "movement_pattern": "Lunge",
+        "body_region": "Lower"
+      },
+      {
         "name": "Barbell Front Racked Reverse Lunge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/36-Barbell-Front-Racked-Reverse-Lunge_084.jpg?w=590",
         "movement_pattern": "Lunge",
         "body_region": "Lower"
       },
       {
+        "name": "Standing Pallof Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3610x_2.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Single Leg Pallof Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/natalie_5650x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Tall Kneeling Pallof Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/jackson_7910x_2_screeen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Seated Pallof Press",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/natalie_5549x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
         "name": "Half Kneeling Pallof Press",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4165x_pallof_2.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Single Arm Rotational Punch",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/59-Single-arm-rotational-punch_210.jpg?w=590",
         "movement_pattern": "Rotation",
         "body_region": "Core"
       },
@@ -446,6 +950,12 @@
       {
         "name": "Half Kneeling Lift",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jarod_4134x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Single Leg Chop",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/nicollet_2081x_2.jpg?w=590",
         "movement_pattern": "Rotation",
         "body_region": "Core"
       },
@@ -474,6 +984,42 @@
         "body_region": "Core"
       },
       {
+        "name": "Reverse Lunge with Rotation",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/49-Reverse-Lunge-with-Rotation_057.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Rotational Chop",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6315x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Standing Chop",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/jackson_8246x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Rotational Lift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3723x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Standing Lift",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/paul_3723x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
+        "name": "Rotational Row",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/kelly_6390x_2_screen.jpg?w=590",
+        "movement_pattern": "Rotation",
+        "body_region": "Core"
+      },
+      {
         "name": "Kneeling Oblique Cable Crunch",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Kneeling-Oblique-Cable-Crunch_590X586.jpg?w=590",
         "movement_pattern": "Rotation",
@@ -488,6 +1034,12 @@
       {
         "name": "Leopard Crawl",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/JACKSON_3314xsxG_r2-1.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
+        "name": "Spiderman Crawl",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/natalie_5778x_2-1.jpg?w=590",
         "movement_pattern": "Gait",
         "body_region": "Core"
       },
@@ -510,14 +1062,32 @@
         "body_region": "Core"
       },
       {
+        "name": "Single Limb Bird Dog",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3113x_2.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
         "name": "Bird Dog",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2018/08/natalie_5760x_2.jpg?w=590",
         "movement_pattern": "Gait",
         "body_region": "Core"
       },
       {
+        "name": "Single Leg Dead Bug",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/JACKSON_3272xsxG_r2-1.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
         "name": "Dead Bug",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3938x_2.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
+        "name": "Resisted Dead Bug",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_2794x_2_screen.jpg?w=590",
         "movement_pattern": "Gait",
         "body_region": "Core"
       },
@@ -536,6 +1106,12 @@
       {
         "name": "Suitcase March",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/paul_3551x_2_screen.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
+        "name": "Waiter March",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/kelly_6698x_2_screen.jpg?w=590",
         "movement_pattern": "Gait",
         "body_region": "Core"
       },
@@ -564,8 +1140,26 @@
         "body_region": "Core"
       },
       {
+        "name": "Resisted Leg Lowering",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/nicollet_0432x_2-1.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
         "name": "Barbell Lateral Leg Raise",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Barbell-Lateral-Leg-Raise_590X586.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
+        "name": "Single Arm Lateral Leg Swing",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/09/paul_3859x_2_screen.jpg?w=590",
+        "movement_pattern": "Gait",
+        "body_region": "Core"
+      },
+      {
+        "name": "Single Arm Resisted Leg Raise",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/10/JACKSON_3130xsxG_r2-1.jpg?w=590",
         "movement_pattern": "Gait",
         "body_region": "Core"
       }
