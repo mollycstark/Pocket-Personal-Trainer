@@ -26,34 +26,34 @@
         <form class="get-sets" data-id="{{ workout_movement.workout_movement_id }}">
           <label for="num-sets">
           </label>
-          <select id="num-sets" name="num_sets">
+          <select id="num-sets" class="form-select" name="num_sets">
             <option value="">
               Choose number of sets</data></option>
             {% for n in range(1, 7) %}
               <option value="{{ n }}">{{ n }}</option>
             {% endfor %}            
           </select>
-          <input type="submit">
+          <input type="submit" class="btn btn-primary">
         </form>
 
         <form class="get-reps" data-id="{{ workout_movement.workout_movement_id }}">
           <label for="num-reps">
           </label>
-          <select id="num-reps" name="num_reps">
+          <select id="num-reps" class="form-select" name="num_reps">
             <option value="">
               Choose number of reps</data></option>
             {% for n in range(1, 21) %}
               <option value="{{ n }}">{{ n }}</option>
             {% endfor %}            
           </select>
-          <input type="submit">
+          <input type="submit" class="btn btn-primary">
         </form>
 
     {% endfor %}
   </ul>
 
   <form action="/display_workout_movements">   
-    <input type="submit" value="Save Sets and Repetitions">
+    <input type="submit" value="Save Sets and Repetitions" class="btn btn-primary">
  </form>
 
  <script src="/static/sets_reps.js"></script>

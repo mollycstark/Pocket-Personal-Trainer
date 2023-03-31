@@ -9,3 +9,6 @@ Display workout
 
 User feedback
 - How can we let user know submit was successful on sets/reps without them having to click an alert box repeatedly, too clunky - change text on button from Submit to Submitted?
+
+Movements
+- Alphabetize

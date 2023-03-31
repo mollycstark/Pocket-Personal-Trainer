@@ -15,30 +15,34 @@
   <h2>Create an Account</h2>
   <form action="/create_user" method="POST">
     <p>
-      Username <input type="text" name="username">
+      <label class="form-label">Username</label>
+      <input type="text" class="form-control" name="username">
     </p>
 
     <p>
-      Password <input type="password" name="password">
+      <label for="inputPassword5" class="form-label">Password</label>
+      <input type="password" class="form-control" name="password">
     </p>
 
     <p>
-      <input type="submit">
+      <input type="submit" class="btn btn-primary">
     </p>
   </form>
 
   <h2>Log In</h2>
   <form action="/login" method="POST">
     <p>
-      Username <input type="text" name="username">
+      <label for="inputPassword5" class="form-label">Username</label>
+      <input type="text" class="form-control" name="username">
     </p>
 
     <p>
-      Password <input type="password" name="password">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" name="password">
     </p>
 
     <p>
-      <input type="submit">
+      <input type="submit" class="btn btn-primary">
     </p>
   </form>
 {% endblock %}

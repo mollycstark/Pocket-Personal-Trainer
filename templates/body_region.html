@@ -6,19 +6,27 @@
 
   <form action="/create_workout">
     Select a body region for workout:
-    <input type="radio" name="body-region" value="Upper" id="upper-body">
-    <label for="upper-body">Upper Body</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="body-region" value="Upper" id="upper-body" >
+      <label for="upper-body">Upper Body</label>
+    </div>
   
-    <input type="radio" name="body-region" value="Core" id="core">
-    <label for="core">Core</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="body-region" value="Core" id="core">
+      <label for="core">Core</label>
+    </div>
     
-    <input type="radio" name="body-region" value="Lower" id="lower-body">
-    <label for="lower-body">Lower Body</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="body-region" value="Lower" id="lower-body">
+      <label for="lower-body">Lower Body</label>
+    </div>
 
-    <input type="radio" name="body-region" value="Full" id="full-body">
-    <label for="full-body">Full Body</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="body-region" value="Full" id="full-body">
+      <label for="full-body">Full Body</label>
+    </div>
 
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
 {% endblock %}

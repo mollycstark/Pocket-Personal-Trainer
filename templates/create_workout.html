@@ -4,7 +4,7 @@
 {% block body %}
   <h1>All Movements</h1>
 
-  <input type="text" id="userInput" onkeyup="handleInput()" placeholder="Search for movements">
+  <input type="text" id="userInput" class="form-control" onkeyup="handleInput()" placeholder="Search for movements">
 
   <ul id="myUL">
     {% for movement in movements %}
@@ -14,7 +14,7 @@
   </ul>
 
   <form action="/api/select_sets_reps">   
-    <input type="submit" value="Save Workout Movements">
+    <input type="submit" value="Save Workout Movements" class="btn btn-primary">
  </form>
 
   <script src="/static/workout_movements.js"></script>
