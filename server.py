@@ -39,7 +39,7 @@ def register_user():
 
 @app.route("/signin", methods=["POST"])
 def process_signin():
-    """Process user sign in."""
+    """User sign in."""
 
     username = request.form.get("username")
     password = request.form.get("password")
@@ -52,12 +52,12 @@ def process_signin():
         session["user_username"] = user.username
         flash(f"Welcome back, {user.username}!")
 
-    return render_template("signin.html")
+    return redirect("/navigation")
 
 
 @app.route("/navigation")
 def navigation():
-    """Display navbar."""
+    """Process user signin display navigation."""
 
     return render_template("navigation.html")
 

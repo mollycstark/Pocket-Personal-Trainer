@@ -2,32 +2,66 @@
 {% block title %}Pocket Personal Trainer{% endblock %}
 
 {% block body %}
-  <h1>Pocket Personal Trainer</h1>
+<div class="container text-center">
+  <div class="row justify-content-between">
+    <div class="col-4">
+      <h1>Pocket Personal Trainer</h1>
+    </div>
+    
+    <div class="col-4">
+      <form action="/signin" method="POST">
+        <p>
+          <input type="submit" value="Sign In" class="btn btn-primary">
+        </p>
+      </form>
+    </div>
+  </div>
 
-  <form action="/signin" method="POST">
-    <p>
-      <input type="submit" value="Sign In" class="btn btn-primary">
-    </p>
-  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="row align-items-start">
+    <div class="col-12">
+      <div class="col">
+        <h1>Create custom strength training programs without the costs.</h1>
+        <br>
+        <h4>Hundreds of movements, tailored workouts, and more. </h4>
+        <br>
+      
+        <h5>Ready to train? Enter a username to create your account.</h5>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row align-items-start">
+    <div class="col">
+    </div>
+    
+    <div class="col">
+      <form action="/create_user" method="POST">
+        <label class="form-label"></label>
+        <input type="text" class="form-control" name="username" placeholder="Username">
 
-  <h2>Create custom strength training programs without the costs.</h2>
-  <h4>Hundreds of movements, tailored workouts, and more. </h4>
+        <label for="inputPassword5" class="form-label"></label>
+        <input type="password" class="form-control" name="password" placeholder="Password">
+        
+        <br>
+        <p>
+          <input type="submit" style="font-size:24px" value="Get Started" class="btn btn-primary">
+        </p>
+      </form>
+    </div>
 
-  <h5>Ready to train? Enter a username to create your account.</h5>
-  <form action="/create_user" method="POST">
-    <p>
-      <label class="form-label">Username</label>
-      <input type="text" class="form-control" name="username">
-    </p>
+    <div class="col">
+    </div>
+  </div>
+  
+ </div>
 
-    <p>
-      <label for="inputPassword5" class="form-label">Password</label>
-      <input type="password" class="form-control" name="password">
-    </p>
-
-    <p>
-      <input type="submit" style="font-size:24px" value="Get Started" class="btn btn-primary">
-    </p>
-  </form>
 
 {% endblock %}
