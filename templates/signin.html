@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}Pocket Personal Trainer{% endblock %}
+
+{% block body %}
+
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <h1>Pocket Personal Trainer</h1>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="row align-items-start">
+    <div class="col">
+    </div>
+    <div class="col text-start">
+      <h2>Sign In</h2>
+      <form action="/signin" method="post">
+        <label for="inputPassword5" class="form-label"></label>
+        <input type="text" class="form-control" name="username" placeholder="Username">
+    
+        <label class="form-label"></label>
+        <input type="password" class="form-control" name="password" placeholder="Password">
+
+        <br>
+        <p>
+          <input type="submit" value="Sign In" class="btn btn-primary">
+        </p>
+      </form>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+</div>
+  
+
+
+
+
+{% endblock %}
