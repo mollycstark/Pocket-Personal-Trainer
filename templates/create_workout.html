@@ -5,13 +5,14 @@
   <h1>All Movements</h1>
 
   <input type="text" id="userInput" class="form-control" onkeyup="handleInput()" placeholder="Search for movements">
-
-  <ul id="myUL">
-    {% for movement in movements %}
-        <li><p>{{ movement.name }}</p>
-        <img alt="{{ movement.name}}" src="{{ movement.reference_image }}"></li>
-    {% endfor %}
-  </ul>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        {% for movement in movements %}
+        <div class="col">
+                <img class="img-fluid" alt="{{ movement.name}}" src="{{ movement.reference_image }}">
+                  <h3>{{ movement.name }}</h3>
+          </div>
+        {% endfor %}
+      </div>
 
   <form action="/api/select_sets_reps">   
     <input type="submit" value="Save Workout Movements" class="btn btn-primary">

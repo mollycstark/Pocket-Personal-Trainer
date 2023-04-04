@@ -12,3 +12,4 @@ User feedback
 
 Movements
 - Alphabetize
+- Need to have movement pattern categories
