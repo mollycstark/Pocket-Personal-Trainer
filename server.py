@@ -32,14 +32,14 @@ def register_user():
         user = crud.create_user(username, password)
         db.session.add(user)
         db.session.commit()
-        flash("Account created! Please log in.")
+        flash("Account created! Please sign in.")
 
-    return redirect("/")
+    return render_template("signin.html")
 
 
-@app.route("/login", methods=["POST"])
-def process_login():
-    """Process user login."""
+@app.route("/signin", methods=["POST"])
+def process_signin():
+    """Process user sign in."""
 
     username = request.form.get("username")
     password = request.form.get("password")
@@ -52,7 +52,14 @@ def process_login():
         session["user_username"] = user.username
         flash(f"Welcome back, {user.username}!")
 
-    return redirect("/")
+    return render_template("signin.html")
+
+
+@app.route("/navigation")
+def navigation():
+    """Display navbar."""
+
+    return render_template("navigation.html")
 
 
 @app.route("/completed_movements")

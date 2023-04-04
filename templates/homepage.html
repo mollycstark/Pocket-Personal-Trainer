@@ -1,18 +1,19 @@
 {% extends 'base.html' %}
-{% block title %}Pocket Personal Trainer Home{% endblock %}
+{% block title %}Pocket Personal Trainer{% endblock %}
 
 {% block body %}
-  <h1>Welcome!</h1>
+  <h1>Pocket Personal Trainer</h1>
 
-  <h2>Navigation</h2>
-  <ul>
-    <li><a href="/body_region">Create a Workout</a></li>
-    <li><a href="/completed_movements">Log Completed Movements</a></li>
-    <li><a href="/delete_completed_movements">Clear Completed Movements</a></li>
-    <li><a href="/view_workouts">View Saved Workouts</a></li>
-  </ul>
+  <form action="/signin" method="POST">
+    <p>
+      <input type="submit" value="Sign In" class="btn btn-primary">
+    </p>
+  </form>
 
-  <h2>Create an Account</h2>
+  <h2>Create custom strength training programs without the costs.</h2>
+  <h4>Hundreds of movements, tailored workouts, and more. </h4>
+
+  <h5>Ready to train? Enter a username to create your account.</h5>
   <form action="/create_user" method="POST">
     <p>
       <label class="form-label">Username</label>
@@ -25,24 +26,8 @@
     </p>
 
     <p>
-      <input type="submit" class="btn btn-primary">
+      <input type="submit" style="font-size:24px" value="Get Started" class="btn btn-primary">
     </p>
   </form>
 
-  <h2>Log In</h2>
-  <form action="/login" method="POST">
-    <p>
-      <label for="inputPassword5" class="form-label">Username</label>
-      <input type="text" class="form-control" name="username">
-    </p>
-
-    <p>
-      <label class="form-label">Password</label>
-      <input type="password" class="form-control" name="password">
-    </p>
-
-    <p>
-      <input type="submit" class="btn btn-primary">
-    </p>
-  </form>
 {% endblock %}

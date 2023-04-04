@@ -13,3 +13,13 @@ User feedback
 Movements
 - Alphabetize
 - Need to have movement pattern categories
+
+Other
+- Block title
+
+Homepage
+- Create account -> login route -> navigation
+- Sign in button top right -> login route -> navigation
+
+Signin
+- Can't get user from session once at create workout route
