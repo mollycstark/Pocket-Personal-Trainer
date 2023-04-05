@@ -151,7 +151,7 @@ def create_workout():
     user_input = request.args.get("body-region")
 
     if crud.get_completed_movement_by_user(user):
-        flash("Workout created! Please select movements.")
+        flash("Select from each movement pattern category to work all major muscle groups.")
 
         return redirect(f"/create_workout_b?user_input={user_input}")
 
@@ -166,7 +166,7 @@ def create_workout():
         workout = crud.create_workout(user)
         db.session.add(workout)
         db.session.commit()
-        flash("Workout created! Please select movements.")
+        flash("Select from each movement pattern category to work all major muscle groups.")
 
     return render_template("create_workout.html", movements=movements, workout=workout)
 
@@ -223,7 +223,7 @@ def display_workout_movements():
     users_workout = crud.get_last_workout_by_user_id(user.user_id)
     workout_movements = users_workout.workout_movements
 
-    return render_template("display_workout.html", workout_movements=workout_movements)
+    return render_template("display_workout.html", workout=users_workout, workout_movements=workout_movements)
 
 
 @app.route("/view_workouts")
@@ -243,7 +243,7 @@ def display_workout(workout_id):
     workout = crud.get_workout_by_id(workout_id)
     workout_movements = workout.workout_movements
 
-    return render_template("display_workout.html", workout_movements=workout_movements)    
+    return render_template("display_workout.html", workout=workout, workout_movements=workout_movements)    
 
 
 if __name__ == "__main__":

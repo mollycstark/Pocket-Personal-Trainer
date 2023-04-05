@@ -2,38 +2,47 @@
 {% block title %}Workout Movements{% endblock %}
 
 {% block body %}
-  <p>A note on set/repetition counts and recovery time: If your objective is
-     strength or power (think: heavy lifting), the textbook advice is to 
-     perform 3 to 5 sets of 2 to 6 reps per exercise. For hypertrophy 
-     (building muscle), the sweet spot is 3 to 4 sets of 6 to 12 reps. And if
-     your objective is muscular endurance, shoot for 2 to 3 sets of 12 to 20 
-     reps.</p>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <h1>Pocket Personal Trainer</h1>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  <br>
+  <br>
 
-  <p>In each case, the key is to use the heaviest resistance that will allow 
-    you to complete all of your reps and sets with good form. You also want to
-     allow yourself just enough time to recover between sets to maintain a 
-     high level of performance: 2 to 5 minutes for strength and power, 30 to 
-     90 seconds for hypertrophy, and just 30 seconds for endurance.</p>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+      </div>
+      <div class="col">
+        <h2>Sets & Reps</h2>
+      </div>
+      <div class="col">
+      </div>
+    </div>
 
-  <h1>Workout Movements</h1>
-
-  <ul>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
     {% for workout_movement in workout_movements %}
-        <p>{{ workout_movement.movement.name }}</p>
+      <div class="col movement">
+        <img class="img-fluid" alt="{{ workout_movement.movement.name}}" src="{{ workout_movement.movement.reference_image }}">
+        <text>{{ workout_movement.movement.name }}</text>
         
-        <img src="{{ workout_movement.movement.reference_image }}">
-
         <form class="get-sets" data-id="{{ workout_movement.workout_movement_id }}">
           <label for="num-sets">
           </label>
           <select id="num-sets" class="form-select" name="num_sets">
             <option value="">
-              Choose number of sets</data></option>
-            {% for n in range(1, 7) %}
+              Total sets</data></option>
+            {% for n in range(2, 7) %}
               <option value="{{ n }}">{{ n }}</option>
             {% endfor %}            
           </select>
-          <input type="submit" value="Enter" class="btn btn-primary">
+          <input type="submit" value="Update" class="btn btn-primary">
         </form>
 
         <form class="get-reps" data-id="{{ workout_movement.workout_movement_id }}">
@@ -41,21 +50,42 @@
           </label>
           <select id="num-reps" class="form-select" name="num_reps">
             <option value="">
-              Choose number of reps</data></option>
+              Total reps</data></option>
             {% for n in range(1, 21) %}
               <option value="{{ n }}">{{ n }}</option>
             {% endfor %}            
           </select>
-          <input type="submit" value="Enter" class="btn btn-primary">
+          <input type="submit" value="Update" class="btn btn-primary">
         </form>
-
+      </div>
     {% endfor %}
-  </ul>
+  </div>
+<br>
+    
+      <form action="/display_workout_movements">   
+        <input type="submit" value="Save Sets and Repetitions" class="btn btn-primary">
+     </form>
+    
+     <script src="/static/sets_reps.js"></script>
 
-  <form action="/display_workout_movements">   
-    <input type="submit" value="Save Sets and Repetitions" class="btn btn-primary">
- </form>
+  <!-- <div class="row align-items-start">
+    <div class="col-8">
+      
+    </div>
 
- <script src="/static/sets_reps.js"></script>
+    <div class="col-4 text-start">
+      <p>If your goal is strength or power, perform 3 to 5 sets of 2 to 6 
+        reps per exercise. To build muscle, perform 3 to 4 sets of 6 to 12 reps. 
+        If your goal is muscular endurance, perform 2 to 3 sets of 12 to 20 
+        reps.
+      </p>
+    
+      <p>Allow yourself just enough time to recover between sets to maintain a 
+         high level of performance: 2 to 5 minutes for strength and power, 30 to 
+         90 seconds for hypertrophy, and just 30 seconds for endurance.</p>
+    </div>
+  </div> -->
+
+</div>
 
 {% endblock %}

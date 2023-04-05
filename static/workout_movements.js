@@ -4,12 +4,12 @@ function handleInput() {
   const filter = input.value.toUpperCase();
   // const ul = document.getElementById("myUL");
   // const li = ul.getElementsByTagName('li');
-  const row = document.querySelectorAll('.col');
+  const row = document.querySelectorAll('.movement');
 
   // Loop through all row items, and hide those who don't match the search query
   for (i = 0; i < row.length; i++) {
-    p = row[i].getElementsByTagName("h3")[0];
-    txtValue = p.innerText;
+    text = row[i].getElementsByTagName("text")[0];
+    txtValue = text.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       row[i].style.display = "";
     } else {

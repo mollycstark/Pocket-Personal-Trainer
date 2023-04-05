@@ -72,7 +72,7 @@
       "body_region": "Upper"
     },
     {
-      "name": "Neutral Grip SA Straight Arm Lat Pulldown",
+      "name": "Straight Arm Lat Pulldown",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Neutral-Single-Arm-Straight-Arm-Pulldown_590X586.jpg?w=590",
       "movement_pattern": "Pull",
       "body_region": "Upper"
@@ -432,7 +432,7 @@
         "body_region": "Lower"
       },
       {
-        "name": "Racked Offset Split Squat with Rotation",
+        "name": "Offset Split Squat with Rotation",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/55-Racked-Offset-Split-Squat-w-rotation_060.jpg?w=590",
         "movement_pattern": "Squat",
         "body_region": "Lower"
@@ -612,7 +612,7 @@
         "body_region": "Upper"
       },
       {
-        "name": "Tall Kneeling Single Arm Chest Press",
+        "name": "Kneeling SA Chest Press",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2018/09/jackson_8021x_2_screen-1.jpg?w=590",
         "movement_pattern": "Push",
         "body_region": "Upper"
@@ -714,19 +714,19 @@
       "body_region": "Upper"
     },
     {
-      "name": "Half Kneeling Single Arm Overhead Press",
+      "name": "Half Kneeling SA Overhead Press",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/pablo_8890x_2_screen.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
     },
     {
-      "name": "Half Kneeling Alternating Overhead Press",
+      "name": "Half Kneeling Alt. Overhead Press",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5373x_2_screen.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
     },
     {
-      "name": "Seated Single Arm Overhead Press",
+      "name": "Seated SA Overhead Press",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/natalie_5406x_2_screen.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
@@ -786,7 +786,7 @@
       "body_region": "Upper"
     },
     {
-      "name": "Reverse Grip Barbell Tricep Extension",
+      "name": "Reverse Grip Barbell Tricep Ext.",
       "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Reverse-Grip-Barbell-Tricep-Extension_590X586.jpg?w=590",
       "movement_pattern": "Push",
       "body_region": "Upper"
@@ -900,7 +900,7 @@
         "body_region": "Lower"
       },
       {
-        "name": "Barbell Front Racked Reverse Lunge",
+        "name": "Front Racked Reverse Lunge",
         "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/36-Barbell-Front-Racked-Reverse-Lunge_084.jpg?w=590",
         "movement_pattern": "Lunge",
         "body_region": "Lower"

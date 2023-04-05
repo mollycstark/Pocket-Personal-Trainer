@@ -2,19 +2,37 @@
 {% block title %}All Movements{% endblock %}
 
 {% block body %}
-  <h1>All Movements</h1>
-  <input type="text" id="userInput" onkeyup="handleInput()" placeholder="Search for movements">
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <h1>Pocket Personal Trainer</h1>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
 
-  <ul id="myUL">
-    {% for movement in movements %}
-        <li><p>{{ movement.name }}</p>
-        <img alt="{{ movement.name}}" src="{{ movement.reference_image }}"></li>
-    {% endfor %}
-  </ul>
+  <br>
+  <br>
 
-  <form action="/">   
-    <input type="submit" value="Log Completed Movements" class="btn btn-primary">
- </form>
+  <input type="text" id="userInput" class="form-control" onkeyup="handleInput()" placeholder="Search for movements">
+  <br>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+        {% for movement in movements %}
+        <div class="col movement">
+                <img class="img-fluid" alt="{{ movement.name}}" src="{{ movement.reference_image }}">
+                  <text>{{ movement.name }}</text>
+                  <p>{{movement.movement_pattern.name }} Movement Pattern</p>
+          </div>
+        {% endfor %}
+      </div>
+<br>
+<form action="/navigation">   
+  <input type="submit" value="Log Completed Movements" class="btn btn-primary">
+</form>
+<br>
 
-  <script src="/static/completed_movements.js"></script>
+<script src="/static/completed_movements.js"></script>
+
 {% endblock %}

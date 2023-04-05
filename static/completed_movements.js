@@ -2,17 +2,17 @@ function handleInput() {
   // Declare variables
   const input = document.getElementById('userInput');
   const filter = input.value.toUpperCase();
-  const ul = document.getElementById("myUL");
-  const li = ul.getElementsByTagName('li');
+  // const ul = document.getElementById("myUL");
+  const row = document.querySelectorAll('.movement');
 
   // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    p = li[i].getElementsByTagName("p")[0];
-    txtValue = p.innerText;
+  for (i = 0; i < row.length; i++) {
+    text = row[i].getElementsByTagName("text")[0];
+    txtValue = text.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+      row[i].style.display = "";
     } else {
-      li[i].style.display = "none";
+      row[i].style.display = "none";
     }
   }
 }

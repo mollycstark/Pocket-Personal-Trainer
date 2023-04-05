@@ -7,7 +7,7 @@ for (const setInputField of setsInputFields) {
     const workoutMovement = form.dataset.id;
 
     const numSets = form.querySelector('select[name="num_sets"]').value;
-    form.querySelector('.btn-primary').value = "Entered";
+    form.querySelector('.btn-primary').value = "Updated";
 
     fetch(`/api/select_sets_reps?workout_movement=${workoutMovement}&num_sets=${numSets}`)
   })
@@ -22,7 +22,7 @@ for (const repInputField of repsInputFields) {
     const workoutMovement = form.dataset.id;
 
     const numReps = form.querySelector('select[name="num_reps"]').value;
-    form.querySelector('.btn-primary').value = "Entered";
+    form.querySelector('.btn-primary').value = "Updated";
 
     fetch(`/api/select_sets_reps?workout_movement=${workoutMovement}&num_reps=${numReps}`)
   })
