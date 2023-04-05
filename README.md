@@ -2,7 +2,7 @@
 Known Issues: 
 
 User errors
-- Check for any possible out of order clicking that could break application
+- Check for any possible out of order clicking that could break application for deployment?
 
 Display workout
 - Needs to display reps/sets
@@ -14,12 +14,8 @@ Movements
 - Alphabetize
 - Need to have movement pattern categories
 
-Other
-- Block title
+Log/Clear Completed Movements
+- How will user know how these work? Flash a message that tells them what to do and then have navbar on page give them the option to alternatively return home 
 
-Homepage
-- Create account -> login route -> navigation
-- Sign in button top right -> login route -> navigation
-
-Signin
-- Can't get user from session once at create workout route
+Navigation Route
+- Changing naming to "home"

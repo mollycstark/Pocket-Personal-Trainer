@@ -2,31 +2,56 @@
 {% block title %}Select Body Region for Workout{% endblock %}
 
 {% block body %}
-  <h1>Body Region</h1>
-
-  <form action="/create_workout">
-    Select a body region for workout:
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="body-region" value="Upper" id="upper-body" >
-      <label for="upper-body">Upper Body</label>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <h1>Pocket Personal Trainer</h1>
     </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="row align-items-start">
+    <div class="col-4">
+    </div>
+    <div class="col-8 text-start">
+      <h2>Select a Body Region for Workout:</h2>
+      <form action="/create_workout">
+      <!-- <p>Select a body region for workout:</p> -->
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="body-region" value="Upper" id="upper-body" >
+          <label class="form-check-label" for="upper-body">Upper Body</label>
+        </div>
   
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="body-region" value="Core" id="core">
-      <label for="core">Core</label>
-    </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="body-region" value="Core" id="core">
+          <label class="form-check-label" for="core">Core</label>
+        </div>
     
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="body-region" value="Lower" id="lower-body">
-      <label for="lower-body">Lower Body</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="body-region" value="Lower" id="lower-body">
+          <label class="form-check-label" for="lower-body">Lower Body</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="body-region" value="Full" id="full-body">
+          <label class="form-check-label" for="full-body">Full Body</label>
+        </div>
+    <br>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
 
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="body-region" value="Full" id="full-body">
-      <label for="full-body">Full Body</label>
-    </div>
+    <!-- <div class="col">
+    </div> -->
+  </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+
 
 {% endblock %}
