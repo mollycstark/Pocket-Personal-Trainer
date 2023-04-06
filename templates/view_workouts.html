@@ -9,7 +9,7 @@
       <h1>Pocket Personal Trainer</h1>
     </div>
     <div class="col-8">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg" style="background-color:antiquewhite">
         <div class="container-fluid">
           <!-- <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -52,18 +52,18 @@
   
 
   <div class="row align-items-start">
-    <div class="col">
-      <h2>My Workouts</h2>
-      {% for workout in workouts %}
-          <p><a class="btn btn-primary" href="/display_workout/{{workout.workout_id}}">Workout {{loop.index}}</a></p>
-      {% endfor %}
-    </div>
-    <div class="col">
-    </div>
-    <div class="col">
-    </div>
+      <div class="col-4">
+        <h2>My Workouts</h2>
+        {% for workout in workouts %}
+            <p><a class="btn btn-primary" href="/display_workout/{{workout.workout_id}}">Workout {{loop.index}}</a></p>
+        {% endfor %}
+      </div>
+      <div class="col-4">
+      </div>
+      <div class="col-4">
+        <img class="img-fluid" src="/static/img/plates.jpg">
+      </div>
   </div>
-
 </div>
 
 {% endblock %}

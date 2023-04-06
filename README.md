@@ -11,6 +11,7 @@ Consider
 - Headings across pages?
 - Should page items be centered and if so when
 - For a tablet should it be 2 or 3 movements across?
+- Workout gets created as soon as you go to that page. Should think about alt solution
 
 To Do
 - Background images vs. color palette for pages without movement images vs. collage
