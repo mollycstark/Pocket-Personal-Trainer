@@ -534,8 +534,20 @@
         "body_region": "Upper"
       },
       {
+        "name": "Bent Knee Calf Raise",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/JACKSON_2870xsxG_r2-1.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Lower"
+      },
+      {
+        "name": "Resisted Calf Raise",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2021/12/Resisted-Calf-Raise_590X586.jpg?w=590",
+        "movement_pattern": "Push",
+        "body_region": "Lower"
+      },
+      {
         "name": "Bear Hold",
-        "reference_image": "https://www.tonal.com/wp-content/uploads/2020/05/gabby_3012x_2.jpg?w=590",
+        "reference_image": "https://www.tonal.com/wp-content/uploads/2022/04/13-Bear-Hold_002.jpg?w=590",
         "movement_pattern": "Push",
         "body_region": "Upper"
       },

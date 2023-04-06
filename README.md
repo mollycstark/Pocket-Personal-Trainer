@@ -1,31 +1,36 @@
 # Pocket-Personal-Trainer
 
-Before Deployment
-- Check for any possible out of order clicking that could break application for deployment?
-
-Sets/Reps
-- Buttons in-line with drop down
-
-Movements
-- Alphabetize
-- Need to have movement pattern categories
+Nice to Haves
 - List movement patterns for user?
+- Give user notes about how to select based on goals
+- Flash a message that tells user how to user completed movements page and then have navbar on  page give them the option to alternatively return home 
+- Horizontal/vertical push/pull
+- User logout
 
-Headings across pages?
-
-Font
-
-Log/Clear Completed Movements
-- How will user know how these work? Flash a message that tells them what to do and then have navbar on page give them the option to alternatively return home 
-
-Navigation Route
-- Changing naming to "home"
-
-Theme
-- Background images vs. color palette for pages without movement images vs. collage
-
-Alignment
+Consider
+- Headings across pages?
 - Should page items be centered and if so when
-
-Responsiveness
 - For a tablet should it be 2 or 3 movements across?
+
+To Do
+- Background images vs. color palette for pages without movement images vs. collage
+- Virtual env, requirements.txt, gitignore, readme - pip freeze > requirements. txt
+
+Copy
+- create customized exercise programs
+achieve their fitness goals
+specialized training plan
+extensive library of workout movements
+categorized by body part and functional movement patterns
+build strength holistically 
+functional training builds functional muscle
+training for movement
+correcting posture and muscle imbalances
+instead of strengthening one muscle group at a time
+research shows strength training has long term health benefits and doctors recommend adults strength train all major muscle groups twice a week
+you need guidance to set up a strength training program tailored to your needs and a trainer can be expensive 
+the best resistance training program works all the major muscle groups in your body
+overworking one muscle group could raise your risk of injury
+build muscle mass, get stronger, strengthen bones and joints
+for optimal strength and fitness work all your muscle groups
+start with lighter weights then increase the weight or resistance slowly to avoid injury

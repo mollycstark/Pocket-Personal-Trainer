@@ -30,33 +30,45 @@
     {% for workout_movement in workout_movements %}
       <div class="col movement">
         <img class="img-fluid" alt="{{ workout_movement.movement.name}}" src="{{ workout_movement.movement.reference_image }}">
-        <text>{{ workout_movement.movement.name }}</text>
+        <p>{{ workout_movement.movement.name }}</p>
+  
         
-        <form class="get-sets" data-id="{{ workout_movement.workout_movement_id }}">
+        <form class="get-sets row" data-id="{{ workout_movement.workout_movement_id }}">
           <label for="num-sets">
           </label>
-          <select id="num-sets" class="form-select" name="num_sets">
-            <option value="">
-              Total sets</data></option>
-            {% for n in range(2, 7) %}
-              <option value="{{ n }}">{{ n }}</option>
-            {% endfor %}            
-          </select>
-          <input type="submit" value="Update" class="btn btn-primary">
+          <div class="col-8">
+            <select id="num-sets" class="form-select" name="num_sets">
+              <option value="">
+                Total sets</data></option>
+              {% for n in range(2, 7) %}
+                <option value="{{ n }}">{{ n }}</option>
+              {% endfor %}            
+            </select>
+          </div>
+          <div class="col-4">
+            <input type="submit" value="Update" class="btn btn-primary">
+          </div>
         </form>
+        <br>
 
-        <form class="get-reps" data-id="{{ workout_movement.workout_movement_id }}">
+        <form class="get-reps row" data-id="{{ workout_movement.workout_movement_id }}">
           <label for="num-reps">
           </label>
-          <select id="num-reps" class="form-select" name="num_reps">
-            <option value="">
-              Total reps</data></option>
-            {% for n in range(1, 21) %}
-              <option value="{{ n }}">{{ n }}</option>
-            {% endfor %}            
-          </select>
-          <input type="submit" value="Update" class="btn btn-primary">
+          <div class="col-8">
+            <select id="num-reps" class="form-select" name="num_reps">
+              <option value="">
+                Total reps</data></option>
+              {% for n in range(1, 21) %}
+                <option value="{{ n }}">{{ n }}</option>
+              {% endfor %}            
+            </select>
+          </div>
+          <div class="col-4">
+            <input type="submit" value="Update" class="btn btn-primary">
+          </div>
         </form>
+        <br>
+        <br>
       </div>
     {% endfor %}
   </div>
