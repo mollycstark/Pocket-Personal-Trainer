@@ -2,7 +2,7 @@
 
 Nice to Haves
 - List movement patterns for user?
-- Give user notes about how to select based on goals
+- Give user notes about how to select sets/reps based on goals
 - Flash a message that tells user how to user completed movements page and then have navbar on  page give them the option to alternatively return home 
 - Horizontal/vertical push/pull
 - User logout
@@ -11,7 +11,8 @@ Consider
 - Headings across pages?
 - Should page items be centered and if so when
 - For a tablet should it be 2 or 3 movements across?
-- Workout gets created as soon as you go to that page. Should think about alt solution
+- Workout gets created as soon as you go to that page. Should think about alt solution - call create workout when they select a movement
+
 
 To Do
 - Background images vs. color palette for pages without movement images vs. collage
