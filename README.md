@@ -1,4 +1,4 @@
-Pocket-Personal-Trainer (([Demo](https://www.youtube.com/watch?v=suKZ7QD2wX8))
+Pocket-Personal-Trainer ([Demo](https://www.youtube.com/watch?v=suKZ7QD2wX8))
 
 Nice to Haves
 - List movement patterns for user?
