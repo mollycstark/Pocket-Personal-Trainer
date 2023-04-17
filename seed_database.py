@@ -9,7 +9,7 @@ import model
 import server
 
 
-os.system("dropdb workouts")
+os.system("dropdb --if-exists workouts")
 os.system("createdb workouts")
 
 model.connect_to_db(server.app)
