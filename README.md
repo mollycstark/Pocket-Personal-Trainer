@@ -1,6 +1,6 @@
 # Pocket-Personal-Trainer ([Demo](https://www.youtube.com/watch?v=suKZ7QD2wX8))
 <a href="https://www.youtube.com/watch?v=suKZ7QD2wX8
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+" target="_blank"><img src="https://www.youtube.com/watch?v=suKZ7QD2wX8.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Project Overview (TLDR)
