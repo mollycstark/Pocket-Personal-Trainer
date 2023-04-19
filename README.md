@@ -52,7 +52,9 @@ $ git clone https://github.com/mollycstark/Pocket-Personal-Trainer.git
 
 ### Create and activate a virtual environment:
 $ pip3 install virtualenv
+
 $ virtualenv env
+
 $ source env/bin/activate
 
 ### Install dependencies:
