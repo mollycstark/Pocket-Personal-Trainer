@@ -45,28 +45,26 @@ If a user has already trained pulling and hip hinge patterns with lat pull downs
 PostgreSQL
 Python 3.7.3
 
-To have this app running on your local computer, please follow the below steps:
+### To have this app running on your local computer, please follow the below steps:
 
-Clone repository:
+### Clone repository:
 $ git clone https://github.com/mollycstark/Pocket-Personal-Trainer.git
 
-
-Create and activate a virtual environment:
+### Create and activate a virtual environment:
 $ pip3 install virtualenv
 $ virtualenv env
 $ source env/bin/activate
 
-
-Install dependencies:
+### Install dependencies:
 (env) $ pip3 install -r requirements.txt
 
-Create database and instantiate library of movements:
+### Create database and instantiate library of movements:
 (env) $ python3 seed_database.py
 
-Start backend server:
+### Start backend server:
 (env) $ python3 server.py
 
-In an incognito web browser, navigate to port 5000 on localhost:
+### In an incognito web browser, navigate to port 5000 on localhost:
 $ http://localhost:5000/
 
 
