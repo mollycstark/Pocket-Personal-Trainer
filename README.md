@@ -1,7 +1,4 @@
 # Pocket-Personal-Trainer ([Demo](https://www.youtube.com/watch?v=suKZ7QD2wX8))
-<a href="https://www.youtube.com/watch?v=suKZ7QD2wX8
-" target="_blank"><img src="https://www.youtube.com/watch?v=suKZ7QD2wX8.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Project Overview (TLDR)
 Pocket Personal Trainer is a Flask application that creates custom workouts based on functional movement training. This kind of training works several muscle groups at once so you build strength holistically. The app features an internally built library of 200 movements that can be selected from when creating or logging workouts. The included movements span across 7 movement patterns - pushing, pulling, hinging, squating, lunging, rotating, and gait. App features include account creation and login, selecting the body region for which you’d like to create a workout, a responsive display for browsing the movement library, a Javascript filter/search list to access a particular movement with user input, ability to select movements, sets, and repetitions for a given workout, accessing and displaying saved workouts from user page, and the logging of a previously completed workout in order to create a well-balanced follow-up workout. 
